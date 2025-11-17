@@ -1,19 +1,40 @@
-# Presentation Template
+# When AI Joins the Standup
 
-A clean, modern presentation template with keyboard/touch navigation and mobile-responsive design.
+A presentation exploring the transformation from "AI Tool" to "AI Teammate" in the context of Agentic DevOps.
+
+**Presenter:** Suhas Rao, App Innovation Architect @ Microsoft  
+**Event Date:** November 20, 2025  
+**Total Slides:** 14
+
+## About This Presentation
+
+This presentation explores how AI is evolving from isolated tools into collaborative teammates that observe, reason, and act across the entire software development lifecycle. It covers the emergence of Agentic DevOps and the three major transformations: acceleration from idea to production, reduction of operational burden, and modernization/remediation of legacy systems.
 
 ## Quick Start
 
-1. **Edit `config.js`** - Set your presentation title, presenter info, and total slides
-2. **Edit `slide1.html`** - Customize your first slide content
-3. **Open `index.html`** in a browser to start
+1. Open `index.html` in a browser to start the presentation
+2. Navigate using arrow keys, spacebar, or swipe gestures on mobile
+3. Edit `config.js` to customize presenter information
 
 ## What's Included
 
 ```
-template/
+Agentic DevOps/
 ├── index.html              # Welcome/landing page
-├── slide1.html            # First slide (example)
+├── slide1.html            # Slide 1: The Daily Standup
+├── slide2.html            # Slide 2
+├── slide3.html            # Slide 3
+├── slide4.html            # Slide 4
+├── slide5.html            # Slide 5
+├── slide6.html            # Slide 6
+├── slide7.html            # Slide 7: From "AI Tool" to "AI Teammate"
+├── slide8.html            # Slide 8
+├── slide9.html            # Slide 9
+├── slide10.html           # Slide 10
+├── slide11.html           # Slide 11
+├── slide12.html           # Slide 12
+├── slide13.html           # Slide 13
+├── slide14.html           # Slide 14
 ├── slide-template.html    # Template for creating new slides
 ├── config.js              # Presentation configuration
 ├── navbar.js              # Navigation bar component
@@ -30,14 +51,14 @@ Edit `config.js` to customize:
 ```javascript
 const presentationConfig = {
     presenter: {
-        name: "Your Name",
-        title: "Your Title",
-        company: "Your Company"
+        name: "Suhas Rao",
+        title: "App Innovation Architect",
+        company: "Microsoft"
     },
     event: {
-        name: "Your Presentation Title",
-        date: "Month Year",
-        totalSlides: 1  // Update when you add slides
+        name: "When AI Joins the Standup",
+        date: "November 20, 2025",
+        totalSlides: 14
     },
     hiddenSlides: []  // Hide specific slides: [2, 5]
 };
