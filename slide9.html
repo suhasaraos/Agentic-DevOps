@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Presentation - Slide 9</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <script src="navbar.js"></script>
+</head>
+<body>
+    
+    <div class="slide active">
+        
+        <div class="slide-content">
+            
+            <h1 style="margin-bottom: 0.5rem;">Agent Use Cases Across the SDLC</h1> 
+            <br />           
+            
+            <div class="content-section">
+                <!-- SDLC Phases Grid -->
+                <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.75rem;">
+                    
+                    <!-- Specify -->
+                    <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0.05) 100%); 
+                                border: 2px solid rgba(139, 92, 246, 0.3); 
+                                border-radius: 10px; 
+                                padding: 0.75rem;
+                                display: flex;
+                                flex-direction: column;">
+                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                            <i class="bi bi-file-text" style="font-size: 2rem; color: rgba(139, 92, 246, 0.9);"></i>
+                        </div>
+                        <h3 style="color: rgba(139, 92, 246, 0.9); margin-bottom: 0.5rem; font-size: 0.95rem; text-align: center; font-weight: bold;">
+                            Specify
+                        </h3>
+                        <ul style="color: var(--text-primary); font-size: 0.75rem; line-height: 1.3; margin: 0; padding-left: 1rem; flex-grow: 1;">
+                            <li style="margin-bottom: 0.3rem;">Generate draft BRDs/FRDs from transcripts</li>
+                            <li style="margin-bottom: 0.3rem;">Auto-extract epics, stories & criteria</li>
+                            <li>Stakeholder requirements with traceability</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Plan -->
+                    <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(59, 130, 246, 0.05) 100%); 
+                                border: 2px solid rgba(59, 130, 246, 0.3); 
+                                border-radius: 10px; 
+                                padding: 0.75rem;
+                                display: flex;
+                                flex-direction: column;">
+                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                            <i class="bi bi-kanban" style="font-size: 2rem; color: rgba(59, 130, 246, 0.9);"></i>
+                        </div>
+                        <h3 style="color: rgba(59, 130, 246, 0.9); margin-bottom: 0.5rem; font-size: 0.95rem; text-align: center; font-weight: bold;">
+                            Plan
+                        </h3>
+                        <ul style="color: var(--text-primary); font-size: 0.75rem; line-height: 1.3; margin: 0; padding-left: 1rem; flex-grow: 1;">
+                            <li style="margin-bottom: 0.3rem;">AI proposes backlog structure & priorities</li>
+                            <li style="margin-bottom: 0.3rem;">Scenario-based forecasting (best/likely/worst)</li>
+                            <li>Instant impact analysis on scope changes</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Build -->
+                    <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%); 
+                                border: 2px solid rgba(16, 185, 129, 0.3); 
+                                border-radius: 10px; 
+                                padding: 0.75rem;
+                                display: flex;
+                                flex-direction: column;">
+                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                            <i class="bi bi-hammer" style="font-size: 2rem; color: rgba(16, 185, 129, 0.9);"></i>
+                        </div>
+                        <h3 style="color: rgba(16, 185, 129, 0.9); margin-bottom: 0.5rem; font-size: 0.95rem; text-align: center; font-weight: bold;">
+                            Build
+                        </h3>
+                        <ul style="color: var(--text-primary); font-size: 0.75rem; line-height: 1.3; margin: 0; padding-left: 1rem; flex-grow: 1;">
+                            <li style="margin-bottom: 0.3rem;">Agents assist with design clarifications</li>
+                            <li style="margin-bottom: 0.3rem;">Auto-link requirements to work items</li>
+                            <li>See "feature completion likelihood" vs % complete</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Test/Verify -->
+                    <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(245, 158, 11, 0.05) 100%); 
+                                border: 2px solid rgba(245, 158, 11, 0.3); 
+                                border-radius: 10px; 
+                                padding: 0.75rem;
+                                display: flex;
+                                flex-direction: column;">
+                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                            <i class="bi bi-check2-circle" style="font-size: 2rem; color: rgba(245, 158, 11, 0.9);"></i>
+                        </div>
+                        <h3 style="color: rgba(245, 158, 11, 0.9); margin-bottom: 0.5rem; font-size: 0.95rem; text-align: center; font-weight: bold;">
+                            Test / Verify
+                        </h3>
+                        <ul style="color: var(--text-primary); font-size: 0.75rem; line-height: 1.3; margin: 0; padding-left: 1rem; flex-grow: 1;">
+                            <li style="margin-bottom: 0.3rem;">Suggest test cases from requirements & risks</li>
+                            <li style="margin-bottom: 0.3rem;">Auto-checks surface defects early</li>
+                            <li>Real-time quality risk on the dashboards</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Deploy -->
+                    <div style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(239, 68, 68, 0.05) 100%); 
+                                border: 2px solid rgba(239, 68, 68, 0.3); 
+                                border-radius: 10px; 
+                                padding: 0.75rem;
+                                display: flex;
+                                flex-direction: column;">
+                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                            <i class="bi bi-upload" style="font-size: 2rem; color: rgba(239, 68, 68, 0.9);"></i>
+                        </div>
+                        <h3 style="color: rgba(239, 68, 68, 0.9); margin-bottom: 0.5rem; font-size: 0.95rem; text-align: center; font-weight: bold;">
+                            Deploy
+                        </h3>
+                        <ul style="color: var(--text-primary); font-size: 0.75rem; line-height: 1.3; margin: 0; padding-left: 1rem; flex-grow: 1;">
+                            <li style="margin-bottom: 0.3rem;">AI recommends rollout strategy (canary/blue-green/flags)</li>
+                            <li style="margin-bottom: 0.3rem;">Predictive deployment risk signals</li>
+                            <li>Live go/no-go indicators during release</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Operate -->
+                    <div style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(236, 72, 153, 0.05) 100%); 
+                                border: 2px solid rgba(236, 72, 153, 0.3); 
+                                border-radius: 10px; 
+                                padding: 0.75rem;
+                                display: flex;
+                                flex-direction: column;">
+                        <div style="text-align: center; margin-bottom: 0.5rem;">
+                            <i class="bi bi-gear-wide-connected" style="font-size: 2rem; color: rgba(236, 72, 153, 0.9);"></i>
+                        </div>
+                        <h3 style="color: rgba(236, 72, 153, 0.9); margin-bottom: 0.5rem; font-size: 0.95rem; text-align: center; font-weight: bold;">
+                            Operate
+                        </h3>
+                        <ul style="color: var(--text-primary); font-size: 0.75rem; line-height: 1.3; margin: 0; padding-left: 1rem; flex-grow: 1;">
+                            <li style="margin-bottom: 0.3rem;">SRE agents watch telemetry, auto-open tickets</li>
+                            <li style="margin-bottom: 0.3rem;">Incidents summarized with root cause & impact</li>
+                            <li>Business-impact views, not just CPU graphs</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <!-- Key Insights -->
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-top: 1rem;">
+                    <div style="background: linear-gradient(135deg, rgba(78, 205, 196, 0.12) 0%, rgba(78, 205, 196, 0.03) 100%); 
+                                border-left: 3px solid var(--teal-light); 
+                                padding: 0.75rem; 
+                                border-radius: 6px;">
+                        <h4 style="color: var(--teal-light); margin-bottom: 0.4rem; font-size: 0.95rem;">
+                            <i class="bi bi-eye" style="margin-right: 0.5rem;"></i>Deeper Visibility
+                        </h4>
+                        <p style="color: var(--text-primary); font-size: 0.85rem; margin: 0; line-height: 1.3;">
+                            From fragmented status updates to real-time, context-aware insights at every stage
+                        </p>
+                    </div>
+                    
+                    <div style="background: linear-gradient(135deg, rgba(78, 205, 196, 0.12) 0%, rgba(78, 205, 196, 0.03) 100%); 
+                                border-left: 3px solid var(--teal-light); 
+                                padding: 0.75rem; 
+                                border-radius: 6px;">
+                        <h4 style="color: var(--teal-light); margin-bottom: 0.4rem; font-size: 0.95rem;">
+                            <i class="bi bi-lightning-charge" style="margin-right: 0.5rem;"></i>Strategic Orchestration
+                        </h4>
+                        <p style="color: var(--text-primary); font-size: 0.85rem; margin: 0; line-height: 1.3;">
+                            PMs shift from manual coordination to orchestrating intelligent, autonomous workflows
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ======================================== -->
+        </div>
+        
+        <div class="nav-controls">
+            <button class="btn btn-custom" id="prev-btn">
+                <i class="bi bi-arrow-left"></i> Previous
+            </button>
+            <span class="slide-indicator">... / ...</span>
+            <button class="btn btn-custom" id="next-btn">
+                Next <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="navigation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Update page title from config
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.presentationConfig) {
+                const slideNumber = document.querySelector('.slide-indicator').textContent.split('/')[0].trim();
+                document.getElementById('page-title').textContent = 
+                    `${window.presentationConfig.event.name} - Slide ${slideNumber}`;
+            }
+        });
+    </script>
+</body>
+</html>

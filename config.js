@@ -10,7 +10,7 @@ const presentationConfig = {
     event: {
         name: "When AI Joins the Standup",
         date: "November 20, 2025",
-        totalSlides: 1
+        totalSlides: 14
     },
     // Hidden slides configuration
     // Add slide numbers to this array to hide them from navigation
